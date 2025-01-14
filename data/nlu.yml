@@ -1,0 +1,197 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - extremely good
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who created you?
+
+- intent: request_learning_resource
+  examples: |
+    - Can you help me with courses on [CyberSecurity](topic)?
+    - Suggest me some courses on [web Development](topic)
+    - Provide me more courses on [python programming](topic)
+    - Can you provide courses on [machine learning](topic)?
+    - Give me resources on [Java](topic)
+
+- intent: request_books
+  examples: |
+    - i need some books to learn.
+    - Can you provide me some books.
+    - Suggest me some books.
+    - suggest me book about [python](topic)?
+    - can you give me books for [IoT](topic)?
+
+- intent: explain_more
+  examples: |
+    - Can you explain more about Quantum Computing
+    - Can you tell me more about Java
+    - Tell me more about python
+    - Explain me more about BigData
+
+- intent: ask_assistance
+  examples: |
+    - i need help
+    - i am stuck. please help
+    - can you assist me?
+    - can you guide me?
+    - help me figure this out
+
+
+- intent: provide_feedback
+  examples: |
+    - this was very helpful
+    - thank you for your guidance
+    - you need to improve
+    - your recommendations were good
+    - thanks for your assistance
+
+- intent: ask_bot_capability
+  examples: |
+    - what can you do?
+    - tell me about your features
+    - what services do you provide?
+
+- intent: ask_for_videos
+  examples: |
+    - Can you provide me videos for [python](topic)?
+    - please provide some videos for [IoT](topic)?
+    - Can you suggest me some videos for [Blockchain](topic)?
+    - Can you give me some videos for [DevOps](topic)
+    - give me videos on [Java](topic)
+
+- intent: fallback
+  examples: |
+    - im not sure about that
+    - what are you saying
+    - sorry, i did not understand
+    - can you repeat that?
+    - i don't know what you mean
+    - how to make pizza
+    - how to dance
+    - can you tell me recipes
+
+- intent: enrollment
+  examples: |
+    - can you enroll in this course?
+    - how can i enroll in courses?
+
+- intent: ask_for_motivation
+  examples: |
+      - I need some motivation
+      - Can you motivate me?
+      - Feeling low, inspire me!
+      - I need a motivational boost
+      - Inspire me to keep studying
+
+- intent: ask_for_study_tips
+  examples: |
+    - Can you give me some study tips?
+    - How can I study more effectively?
+    - Suggest ways to improve my focus while studying.
+    - What are some good study techniques?
+    - Help me with tips for better concentration.
+
+- intent: gratitude
+  examples: |
+    - Thank you!
+    - Thanks a lot.
+    - I appreciate your help.
+    - You’ve been very helpful.
+    - I’m grateful for your assistance.
+- intent: ask_about_exams
+  examples: |
+    - How should I prepare for exams?
+    - Give me some tips for exam preparation.
+    - Can you help me prepare for [midterms](exam_type)?
+    - What should I do during the exam week?
+    - Help me with exam strategies.
+
+- intent: small_talk
+  examples: |
+    - How are you?
+    - What’s up?
+    - Tell me a joke.
+    - Do you like movies?
+    - What’s the weather today?
+    - Do you have a favorite color?
