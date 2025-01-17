@@ -108,7 +108,7 @@ class ActionYoutubeVideos(Action):
 
     def get_video_links(self, query: Text) -> List[Dict[str, str]]:
         youtube = googleapiclient.discovery.build("youtube", "v3",
-                                                  developerKey="AIzaS********")
+                                                  developerKey="***********")
         request = youtube.search().list(q=query, part="snippet", type="video", maxResults=5)
         response = request.execute()
         video_details = []
